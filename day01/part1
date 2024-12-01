@@ -1,0 +1,13 @@
+:norm! eGdGop
+:%s/^\s\+//e
+:norm! ggvip:sort
+:norm! Gvip:sort
+:norm! G{je"adkdG
+:%s/.*/&-
+:norm! gg$"ap
+:let @q='0C="'
+:%norm! @q
+:%s/:$//e
+:%s/^-//e
+:%s/\n/+
+:norm! $x0C="

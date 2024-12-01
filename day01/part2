@@ -1,0 +1,13 @@
+:norm! w$hGdGopkma
+:norm! gg}k
+:let @l=line(".")
+:%s/\s\+$//e
+:let @s="'a/\\%>.l\"'a:let @c=searchcount().total"
+:let @t=":let @c=0:silent! norm @s"
+:let @r="mpyiw@t'pA*cj"
+:exe "0,"..eval(@l).."norm @r"
+:norm 'adG
+:%s/\n/+
+:norm $x0D
+:let @x=eval(@")
+:norm "xp
